@@ -9,4 +9,17 @@ Se ha hecho uso de 2 clases:
 - **MainActivity.** Clase principal donde se desarrolla toda la lógica de la aplicación (la app solo cuenta con una pantalla).
 - **BDHelper.** Clase que ayuda a la integración de una Base de Datos
 
+
+## EJERCICIO 2: Lista de la compra
+### Descripción
+El objetivo de este ejercicio es realizar una aplicación que sirva como lista de la compra. El usuario podrá introducir tanto el nombre del producto como la cantidad y su precio aproximado. Hay que tener en cuenta que el único dato obligatorio será el nombre del producto, pudiéndose dejar en blanco los otros dos. La aplicación mostrará siempre el número de productos de la lista y el precio total de la misma (contabilizando solamente aquellos productos para los que se ha indicado su precio).
+
+### Estructura
+
+## EJERCICIO 3: Aplicación de gestión de tareas "Mis Recordatorios" (Ampliada)
+### Descripción
+El objetivo de este ejercicio es realiza una aplicación que sirva como lista de tareas (MisTareas2) pero en este caso la aplicación constará de 3 Activities: registro de tareas, listado de tareas y detalles de tareas. La aplicación seguirá el diseño que se indica en las siguientes capturas de pantalla:
+
+### Estructura
+
 ## << Se irá actualizando a lo largo de estos días >>
