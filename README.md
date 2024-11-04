@@ -15,6 +15,12 @@ Se ha hecho uso de 2 clases:
 El objetivo de este ejercicio es realizar una aplicación que sirva como lista de la compra. El usuario podrá introducir tanto el nombre del producto como la cantidad y su precio aproximado. Hay que tener en cuenta que el único dato obligatorio será el nombre del producto, pudiéndose dejar en blanco los otros dos. La aplicación mostrará siempre el número de productos de la lista y el precio total de la misma (contabilizando solamente aquellos productos para los que se ha indicado su precio).
 
 ### Estructura
+Se ha hecho uso de 4 clases:
+- **MainActivity.** Clase principal donde se desarrolla toda la lógica de la aplicación (la app solo cuenta con una pantalla).
+- **BDHelper.** Clase que ayuda a la integración de una Base de Datos
+- **Producto.** Clase que permite crear instancias de productos. En este caso se ha añadido esta clase ya que a diferencia de en el ejercicio 1 donde solo había que guardar el nombre en la lista, en este ejercicio hay que almacenar también otros atributos por lo que la creación de objetos lo facilita.
+- **ProductoAdapter.** Clase que permite la conversión de cada objeto "Producto" en una vista legible para mostrarlo en la ListView de forma personalizada
+
 
 ## EJERCICIO 3: Aplicación de gestión de tareas "Mis Recordatorios" (Ampliada)
 ### Descripción
