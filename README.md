@@ -27,5 +27,9 @@ Se ha hecho uso de 4 clases:
 El objetivo de este ejercicio es realiza una aplicación que sirva como lista de tareas (MisTareas2) pero en este caso la aplicación constará de 3 Activities: registro de tareas, listado de tareas y detalles de tareas. La aplicación seguirá el diseño que se indica en las siguientes capturas de pantalla:
 
 ### Estructura
+ **MainActivity.** Clase principal donde se desarrolla toda la lógica de la aplicación (la app solo cuenta con una pantalla).
+- **BDHelper.** Clase que ayuda a la integración de una Base de Datos
+- **Tarea.** Clase que permite crear instancias de productos. En este caso se ha añadido esta clase ya que a diferencia de en el ejercicio 1 donde solo había que guardar el nombre en la lista, en este ejercicio hay que almacenar también otros atributos por lo que la creación de objetos lo facilita.
+- **RegistroTareasActivity.** Clase asociada con la activity que maneja la creación de un objeto tarea con sus atributos correspondientes.
+- **InfoTareasActivity.** Claseasociada con la activity que maneja la visualización de los atributos de una tarea (añadidos en la pantalla de registro de tareas).
 
-## << Se irá actualizando a lo largo de estos días >>
